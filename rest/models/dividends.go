@@ -184,4 +184,5 @@ type Dividend struct {
 	PayDate         Date    `json:"pay_date,omitempty"`
 	RecordDate      Date    `json:"record_date,omitempty"`
 	Ticker          string  `json:"ticker,omitempty"`
+	Id              string  `json:"id,omitempty"`
 }
